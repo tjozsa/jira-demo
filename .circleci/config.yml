@@ -7,8 +7,7 @@ orbs:
       steps:
         - run: echo "hello"
 workflows:
-  build:
-    jobs:
-      - build:
-        post-steps:
-          - jira/notify
+  jobs:
+    - build:
+      post-steps:
+        - jira/notify
