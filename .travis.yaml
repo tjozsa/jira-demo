@@ -1,0 +1,7 @@
+notifications:
+    webhooks: https://travis-for-jira-prod.toolsplus.app/travis/notifications?token=78587f30-03b7-312a-bfc1-a896732dd83d
+    on_success: always
+    on_failure: always
+    on_start: always
+    on_cancel: always
+    on_error: always
